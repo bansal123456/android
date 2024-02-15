@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
+    android:padding="20sp"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
-<TextView
-    android:layout_width="match_parent"
-    android:gravity="center"
-    android:layout_height="match_parent"
-    android:textSize="20sp"
-    android:textColor="@color/red"
-    android:text="Hello the world of programming this is himanshu bansal i am here to build application text colour"
-    android:textStyle="bold" />
+    <TextView
+      android:layout_width="match_parent"
+        android:layout_marginTop="200sp"
+      android:layout_height="match_parent"
+      android:textSize="20sp"
+      android:textColor="@color/red"
+      android:text="Himanshu 1"
+      android:textStyle="bold" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100sp"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:text="Himanshu 2"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:text="Himanshu 3"
+        android:textStyle="bold" />
+</RelativeLayout>
